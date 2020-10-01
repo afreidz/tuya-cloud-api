@@ -15,7 +15,7 @@ const defaultContext: {
 };
 
 export const httpClient = got.extend({
-  prefixUrl: 'https://openapi.tuyaeu.com/v1.0/',
+  prefixUrl: 'https://openapi.tuyaus.com/v1.0/',
   responseType: 'json',
   retry: {
     limit: 4,
