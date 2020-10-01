@@ -1,16 +1,16 @@
 {
-  "name": "tuya-cloud-api",
+  "name": "@afreidz/tuya-cloud-api",
   "version": "1.0.1",
   "description": "A nodejs implementation of tuya cloud api: https://docs.tuya.com/en/iot/open-api/api-list/api/api",
   "keywords": [
     "tuya",
     "tuya cloud"
   ],
-  "author": "SleepWalker <dev@udf.su>",
+  "author": "afreidz <afreidenfelds@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SleepWalker/tuya-cloud-api.git"
+    "url": "git+https://github.com/afreidz/tuya-cloud-api.git"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -80,5 +80,9 @@
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
     "typescript": "^3.9.5"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/afreidz/tuya-cloud-api/issues"
+  },
+  "homepage": "https://github.com/afreidz/tuya-cloud-api#readme"
 }
